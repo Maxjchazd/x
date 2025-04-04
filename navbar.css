@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+.navbar {
+    background-color: #080e0a;
+    overflow: hidden;
+    box-shadow: 0 0 10px #00d4ff;
+    border-bottom: 2px solid #0088ff;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #00d4ff;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif; /* Fuente futurista solo para el navbar */
+    transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #0088ff;
+    color: #00ffea;
+    text-shadow: 0 0 5px #00d4ff;
+    transform: scale(1.1);
+}
+
+.navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
