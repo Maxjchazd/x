@@ -107,3 +107,59 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Responsive para pantallas menores a 768px (tablets y celulares) */
+@media (max-width: 768px) {
+    .page {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    .header-img {
+        height: 200px;
+    }
+
+    li {
+        font-size: 0.95rem;
+    }
+}
+
+/* Responsive para pantallas muy pequeñas (menores a 480px) */
+@media (max-width: 480px) {
+    .page {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+    }
+
+    .header-img {
+        height: 150px;
+    }
+
+    li {
+        font-size: 0.9rem;
+        padding: 10px 15px;
+    }
+}
+
+
