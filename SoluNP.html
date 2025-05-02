@@ -56,20 +56,20 @@
       <section>
         <h2> Fundamentos Físicos y Computacionales</h2>
         <p>La ley de conservación de la energía (primera ley de la termodinámica) establece que la energía no se crea ni se destruye, solo se transforma. Algunas fórmulas relevantes:
-        <center><img src="x/base1.jpg" alt="Fórmula 1"></center>
+        <center><img src="/x/base1.jpg" alt="Fórmula 1"></center>
         <p>En computación, toda operación consume energía. Más operaciones implican más consumo de memoria, procesamiento y almacenamiento, y por ende, mayor demanda energética y temporal.</p>
       </section>
 
       <section>
         <h2> Modelo de Consumo Energético y Transformación Inversa</h2>
 
-        <center><img src="x/base1_3.png" alt="Modelo de transformación"></center>
-        <center><img src="x/base1_2.png" alt="Modelo de transformación"></center>
+        <center><img src="/x/base1_3.png" alt="Modelo de transformación"></center>
+        <center><img src="/x/base1_2.png" alt="Modelo de transformación"></center>
 
-        <center><img src="x/base1_4.png" alt="Modelo de transformación"></center>
+        <center><img src="/x/base1_4.png" alt="Modelo de transformación"></center>
 
         <p>Aplicando una transformación inversa..</p>
-        <center><img src="x/base1_5.png" alt="Modelo de transformación"></center>
+        <center><img src="/x/base1_5.png" alt="Modelo de transformación"></center>
 
       </section>
 
@@ -77,7 +77,7 @@
         <h2> Aplicación a Problemas de Rutas</h2>
         <p>Supongamos un valor óptimo inverso de 0.0002 km para una ruta, pero debe reflejar respecto a un área total de 400 km², en congruencia con el sistema directo, no indirecto, entonces:</p>
        
-        <center><img src="x/base3.jpg" alt="Aplicación a rutas"></center>
+        <center><img src="/x/base3.jpg" alt="Aplicación a rutas"></center>
 
         Este sería el trayecto más corto calculado mediante la transformación. Se parte del resultado inverso para obtener el directo mediante una regla proporcional.
       </section>
@@ -88,11 +88,11 @@
        <p>Considerando que, en este caso el problema implica matrices adquiere otras cualidades, ya que hay que respetar las operaciones matriciales permitidas</p>
         Se establece:
       </p>
-      <center><img src="x/base4.jpg" alt="Aplicación a rutas"></center> 
+      <center><img src="/x/base4.jpg" alt="Aplicación a rutas"></center> 
 <p>
 Donde M es la solución directa y M' la inversa. Aplicando álgebra matricial se obtiene la configuración óptima espacialmente distribuida.
  </p>       
-        <center><img src="x/base5.jpg" alt="Distribución de estudiantes"></center>
+        <center><img src="/x/base5.jpg" alt="Distribución de estudiantes"></center>
       </section>
 
       <section>
@@ -148,23 +148,23 @@ Donde M es la solución directa y M' la inversa. Aplicando álgebra matricial se
           
           Si Z es 20x20 y requiero transformarla en una matrinz M´ inversamente proporcional 10x10 (100 estudiantes).</p>
         <center><p>M ⋅ M′ = m</p></center>
-        <center><img src="/base7.jpg" alt="Reducción por bloques"></center>
+        <center><img src="/x/base7.jpg" alt="Reducción por bloques"></center>
         <p>Podemos reducir la complejidad computacional y representar de forma compacta los datos de 400 estudiantes situados en una dimensión abstracta, o sea en la matriz Z de dimensión 20×20, si realizamos una transformación basada en agrupamiento por bloques de 2×2. Esta técnica permite obtener una nueva matriz M′ de tamaño 10×10, donde cada elemento de M′ corresponde al promedio de un bloque 2×2 en Z. El proceso puede expresarse matemáticamente como:</p>
        
-        <center><img src="x/base6.jpg" alt="Matriz Z"></center>
+        <center><img src="/x/base6.jpg" alt="Matriz Z"></center>
 
         <p>Esta operación, aunque no es una transformación lineal clásica, puede interpretarse como un reindexado del espacio de datos, o un cambio de base no lineal, que reorganiza los elementos en subconjuntos representativos. El resultado es una matriz inversamente proporcional a la carga combinatoria, donde valores menores representan áreas con mayor densidad combinatoria en la matriz original.
 
 La reducción permite evaluar indirectamente todas las combinaciones posibles, simplificando el análisis y facilitando la comparación con otras matrices del sistema, como la matriz de capacidad computacional m, utilizada posteriormente para calcular la matriz de decisión M mediante la operación:
 </p>
         <p>En código Python:</p>
-        <center><img src="x/base8.jpg" alt="Código Python"></center>
+        <center><img src="/x/base8.jpg" alt="Código Python"></center>
         <p>Resultados:</p>
         <center>
-          <img src="x/image039.png" alt="Resultado 1">
-          <img src="x/image041.png" alt="Resultado 2">
-          <img src="x/image043.png" alt="Resultado 3">
-          <img src="x/image045.png" alt="Resultado 4">
+          <img src="/x/image039.png" alt="Resultado 1">
+          <img src="/x/image041.png" alt="Resultado 2">
+          <img src="/x/image043.png" alt="Resultado 3">
+          <img src="/x/image045.png" alt="Resultado 4">
         </center>
       </section>
 
